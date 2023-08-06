@@ -14,7 +14,8 @@
         align-items: center;
         text-align: center;">
 <!--Header Start-->
-    <header>
+    <header style="
+    box-shadow:  0px 0px 10px 0px black;">
         <div class="navbar bg-base-100">
             <div class="navbar-start">
               <div class="dropdown">
@@ -76,7 +77,13 @@
     <main>
 
 <!--Identy Start-->
-<section style="padding: 20px;">
+<section style="
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: start;
+">
         <div class="">
             <div class="hero-content flex-col lg:flex-row">
               <img style="width: 200px;" src="images/About/353847608_7001823679832511_3753411678239927323_n.jpg" class=" rounded-lg shadow-2xl" />
@@ -92,7 +99,8 @@
 <!--Identy End-->
 
 <!--Slider start-->
-        <section style="padding: 10px;">
+        <section style="
+        padding: 10px;">
         <div class="carousel w-full">
             <div id="item1" class="carousel-item w-full">
               <img src="images/Slider/110e9f93-3f0a-4bcb-b676-5c966c7dbc47.png" class="w-full" />
@@ -117,16 +125,14 @@
 <!--Slider End-->
 
 <!--Cetegorys start-->
-<div class="tabs tabs-boxed">
-    <a class="tab">Tab 1</a> 
-    <a class="tab tab-active">Tab 2</a> 
-    <a class="tab">Tab 3</a>
-    <a class="tab">Tab 3</a>
-    <a class="tab">Tab 3</a>
-    <a class="tab">Tab 3</a>
-    <a class="tab">Tab 3</a>
-    <a class="tab">Tab 3</a>
-    <a class="tab">Tab 3</a>
+<div class="justify-center m-5 tabs tabs-boxed">
+    <a class="tab">E-book</a> 
+    <a class="tab tab-active">Book</a> 
+    <a class="tab">Course</a>
+    <a class="tab">Redio</a>
+    <a class="tab">Podcast</a>
+    <a class="tab">Research</a>
+    <a class="tab">Blog</a>
 </div>
 <!--Cetegorys end-->
 
@@ -929,27 +935,37 @@ padding: 10px;">
 <!--Main Ends-->
 
 <!--Footer Start-->
-<footer class="footer p-10 bg-neutral text-neutral-content">
-            <div>
+<footer class="
+flex justify-evenly 
+items-center text-center 
+footer p-10 bg-neutral 
+text-neutral-content">
+            <div style="display: flex;
+            flex-direction: column;">
               <span class="footer-title">Services</span> 
               <a class="link link-hover">Best Selling</a>
               <a class="link link-hover">Authors</a>
               <a class="link link-hover">Publishers</a>
             </div> 
-            <div>
+            <div style="display: flex;
+            flex-direction: column;">
               <span class="footer-title">Company</span> 
               <a class="link link-hover">About us</a>
               <a class="link link-hover">Contact</a>
               <a class="link link-hover">Press kit</a>
             </div> 
-            <div>
+            <div style="display: flex;
+            flex-direction: column;">
               <span class="footer-title">Legal</span> 
               <a class="link link-hover">Terms of use</a>
               <a class="link link-hover">Privacy policy</a>
               <a class="link link-hover">Cookie policy</a>
             </div>
 </footer>
-<p class="footer p-10 bg-neutral text-neutral-content justify-center">
+<p class="footer
+ p-10 bg-neutral 
+ text-neutral-content 
+ justify-center">
     &#169 All rights reserved Fazle Elahi
 </p>
 <!--Footer Ends-->
